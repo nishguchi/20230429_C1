@@ -11,17 +11,18 @@ typedef struct
 int main(int argc, char *argv[])
 {
 	
-person_t person1 = {"‘¾˜Y", 10, 'A'};
-person_t person2 = {"Ÿ˜Y", 11, 'B'};
-person_t person3 = {"O˜Y", 12, 'C'};
-person_t person4 = {"l˜Y", 13, 'D'};
+person_t person1 = {"å¤ªéƒ", 10, 'A'};
+person_t person2 = {"æ¬¡éƒ", 11, 'B'};
+person_t person3 = {"ä¸‰éƒ", 12, 'C'};
+person_t person4 = {"å››éƒ", 13, 'D'};
 	
 
 
-printf("–¼‘O‚Í%sA”N—î‚Í%dAŒ^‚Í%c\n", person1.name, person1.age, person1.kigou);
-printf("–¼‘O‚Í%sA”N—î‚Í%dAŒ^‚Í%c\n", person2.name, person2.age, person2.kigou);
-printf("–¼‘O‚Í%sA”N—î‚Í%dAŒ^‚Í%c\n", person3.name, person3.age, person3.kigou);
-printf("–¼‘O‚Í%sA”N—î‚Í%dAŒ^‚Í%c\n", person4.name, person4.age, person4.kigou);
-
+printf("åå‰ã¯%sã€å¹´é½¢ã¯%dã€å‹ã¯%c\n", person1.name, person1.age, person1.kigou);
+printf("åå‰ã¯%sã€å¹´é½¢ã¯%dã€å‹ã¯%c\n", person2.name, person2.age, person2.kigou);
+printf("åå‰ã¯%sã€å¹´é½¢ã¯%dã€å‹ã¯%c\n", person3.name, person3.age, person3.kigou);
+printf("åå‰ã¯%sã€å¹´é½¢ã¯%dã€å‹ã¯%c\n", person4.name, person4.age, person4.kigou);
+	
+return 0;
 }
 
